@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "json"
-  spec.add_development_dependency "hashie"
-  spec.add_development_dependency 'active_support'
+  spec.add_dependency "rake"
+  spec.add_dependency "json"
+  spec.add_dependency "hashie"
+  spec.add_dependency 'active_support'
 end
