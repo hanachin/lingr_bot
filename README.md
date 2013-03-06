@@ -36,6 +36,10 @@ LingrBot.say('room_id', 'message')
 
 ```
 
+``` bash
+$ LINGR_BOT_ID=your_bot_id LINGR_BOT_SECRET=your_bot_secret ruby -rlingr_bot -e "LingrBot.say('room_id', 'message')"
+```
+
 ## Contributing
 
 1. Fork it
